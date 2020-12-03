@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires</title>
+</head>
+<body>
+    <h1>Nous souhaitons nous améliorer</h1>
+	<p>Dis moi comment je peux m'améliorer</p>
+		<form action="/action_page.php">
+  			<label for="fname">* Ton nom :</label><br>
+  			<input type="text" id="fname" name="fname" value="" placeholder="Nom et prénom"><br>
+  			<label for="lname">* Ton Email :</label><br>
+  			<input type="text" id="lname" name="lname" value="" placeholder="Ton Email"><br>
+  			<label for="lname">* Ton âge :</label><br>
+  			<input type="number" id="lname" name="lname" value="" placeholder="Ton âge"><br>
+		</form> 
+
+<p>Qu'est-ce qui te correspond le mieux à l'instant présent :</p>
+	<form action="/action_page.php">
+  		<input list="question presentation" name="question presentation" placeholder="Dis moi en plus sur toi">
+  		<datalist id="presentation">
+    	<option value="Etudiant">
+    	<option value="Employé">
+    	<option value="Profession libérale">
+    	<option value="Je ne préfère rien dire">
+    	<option value="Autre">
+  		</datalist>
+	</form>
+    
+<p>Est-ce que tu me recommandes ?</p>
+	<form>
+  		<input type="radio" id="oui" name="recommandation" value="oui" placeholder="Choisis une réponse">
+  		<label for="male">Oui</label><br>
+  		<input type="radio" id="Peut-être" name="recommandation" value="peut-être">
+  		<label for="female">Peut-être</label><br>
+  		<input type="radio" id="Non" name="recommandation" value="non">
+  		<label for="other">Non</label>
+	</form>
+
+<p>pourquoi as tu choisis mes services ?</p>
+
+	<form action="/action_page.php">
+  		<input list="pourquoi services" name="question pourquoi services">
+  		<datalist id="pourquoi services">
+    	<option value="pour ce que je propose">
+   		<option value="pour les differents projets realises">
+    	<option value="par recommandation">
+    	<option value="le fait d'etre transparent avec ma communauté">
+  	</datalist>
+	</form>
+    
+<p>Qu'est-ce que je dois ameliorer:<br>
+(choix limité):
+</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Le Portfolio</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> La page de vente</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Présence sur les réseaux sociaux</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle3"> Le formulaire de contact</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle3">Le design du portfolio</label><br><br>
+</form>
+
+<p>Un commentaire à ajouter?</p>
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30" placeholder="Chaque commentaire nous fait avancer, alors n'hésites pas."></textarea>
+  
+  <br><br>
+  <input type="submit">
+</form>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22278.235046030797!2d4.894102908295134!3d45.73551906661885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c1763ee80817%3A0x408ab2ae4bb27c0!2s69500%20Bron!5e0!3m2!1sfr!2sfr!4v1605782195141!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

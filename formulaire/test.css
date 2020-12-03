@@ -1,0 +1,39 @@
+h1 {
+    color : #38050A;
+    background-color: goldenrod;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+h2 {
+    color : #38050A;
+    font-family: 'Goldman', cursive ;
+}
+    p {
+    color: goldenrod;
+    background-color:darkred;
+    font-family: 'Goldman', cursive ;
+    font-style: oblique;
+}
+ol {
+    color: darkred;
+    background-color: goldenrod;
+    font-weight: bold;
+    font-family: 'Goldman', cursive;
+}
+body { 
+    background-color: blue;
+    background : url(https://cdn.pixabay.com/photo/2020/11/01/19/41/autumn-5704791_960_720.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+
+.bordure {
+    border: 4px dotted rgb(0, 174, 255);
+    opacity : 0,5;
+}
+
+.centre {
+    text-align: center;
+}
+
+/*commentaire sur css*/
